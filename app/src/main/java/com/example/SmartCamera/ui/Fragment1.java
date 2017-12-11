@@ -23,7 +23,7 @@ public class Fragment1 extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClassName("com.example.SmartCamera", "com.example.SmartCamera.Start_Activity");
+                intent.setClassName("com.example.SmartCamera", "com.example.SmartCamera.Video_Activity");
                 startActivity(intent);
             }
         });
